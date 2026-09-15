@@ -1,0 +1,18 @@
+{
+  "name": "video-factory-skills",
+  "version": "1.0.0",
+  "description": "Video Factory AIGC skills — automatic video editing, plan-driven rough/final cuts, quality judgement, recovery, and verified media receipts.",
+  "author": {
+    "name": "AIGC Skills Community"
+  },
+  "homepage": "https://github.com/full-aigc-skills/video-factory-skills",
+  "repository": "https://github.com/full-aigc-skills/video-factory-skills",
+  "source": "./",
+  "skills": [
+    "./skills/video-factory-use",
+    "./skills/video-factory-plan",
+    "./skills/video-factory-run",
+    "./skills/video-factory-judge",
+    "./skills/video-factory-recover"
+  ]
+}

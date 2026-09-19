@@ -1,6 +1,6 @@
 {
   "name": "video-factory-skills",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Video Factory AIGC skills — automatic video editing, plan-driven rough/final cuts, quality judgement, recovery, and verified media receipts.",
   "author": {
     "name": "AIGC Skills Community"

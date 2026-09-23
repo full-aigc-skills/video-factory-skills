@@ -20,6 +20,8 @@ description: Use when a Video Factory analysis, rough cut, review render, or fin
 
 `Completed` 分段不会重做；回执缺失或哈希变化的分段不能冒充完成。旧粗剪、同步审阅版、终版和
 EditDecision 均保留。若台账损坏，报告具体文件和最后可验证回执，不猜测状态、不删除工作目录。
+恢复完成的候选只能进入 `ReviewReady`；只有明确的人工复核才能从 `ReviewReady` 进入
+`Completed` 或 `ReworkReady`，模型评分不得推进这道状态门。
 
 常见恢复：进程中断 → 继续 Pending；Chrome 缺失 → 保留普通粗剪并跳过增强审阅；素材变化 →
 旧批准失效并创建新 round；确定性质量失败 → 修复计划后重新报价。
